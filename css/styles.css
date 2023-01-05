@@ -1,0 +1,101 @@
+:root {
+  --blue: #0000FF;
+  --darkerblue: #0000E3;
+  --white: #ffffff;
+  --gold: #E3BA00;
+  --darkergold: #967B00;
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background-color: var(--white);
+  border-style:double;
+  border-width: 5px;
+  border-color: #967B00;
+  height: 100vh;
+  margin: 0;
+  border-radius: 12px;
+}
+
+.smdc-logo {
+  border-radius: 25%;
+  width: fit-content;
+  margin-right: 30px;
+}
+
+.navbar {
+  border-radius: 6px 6px 0 0;
+  width: calc(100% - 10px);
+  position: fixed;
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+a.nav-link {
+  font-size: x-large;
+  font-weight: 500;
+  margin: 0 14px;
+}
+
+.carousel-container{
+  height: calc(100vh - 86px);
+  width: 100%;
+  background-color: #0000E3;
+  margin-top:  76px;
+  border-radius: 0 0 6px 6px; /*take note*/
+}
+
+.d-block{
+  margin: 50px auto 0;
+  min-width: 400px;
+  border-radius: 12px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  align-self: flex-end;
+}
+
+.carousel-control-prev-icon {
+  margin-left: 80%;
+}
+
+.carousel-control-next-icon {
+  margin-right: 80%;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 30px;
+  background-color: var(--gold);
+  margin: 12px;
+  border-radius: 100%;
+}
+
+.carousel-indicators .active {
+  opacity: 100%;
+  background-color: var(--darkergold);
+}
+
+img{
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+}
+
+.introduction {
+  width: 50%;
+  text-align: center;
+  margin: 10px auto 0 auto;
+  color: var(--white);
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: xx-large;
+  margin-top: 20px;
+  color: var(--white);
+}
