@@ -3,36 +3,55 @@
   --darkerblue: #0000E3;
   --white: #ffffff;
   --gold: #E3BA00;
-  --darkergold: #967B00;
+  --supergold: #f3c808;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   text-align: center;
 }
 
+html {
+  height: max-content;
+  background-color: black;
+}
+
 body {
-  background-color: var(--white);
+  background-color: white;
   border-style:double;
   border-width: 5px;
   border-color: #967B00;
-  height: 100vh;
-  margin: 0;
   border-radius: 12px;
 }
 
 .smdc-logo {
-  border-radius: 25%;
-  width: fit-content;
+  border-radius: 12px;
+  width: 100%;
   margin-right: 30px;
+  background-color: white;
 }
 
 .navbar {
-  border-radius: 6px 6px 0 0;
+  border-radius: 6px;
+  border-style: groove;
+  border-width: 2px;
+  border-color: var(--blue);
   width: calc(100% - 10px);
   position: fixed;
   z-index: 3;
   box-sizing: border-box;
+}
+
+.for-inquiries {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left;
 }
 
 a.nav-link {
@@ -41,61 +60,75 @@ a.nav-link {
   margin: 0 14px;
 }
 
-.carousel-container{
-  height: calc(100vh - 86px);
-  width: 100%;
-  background-color: #0000E3;
-  margin-top:  76px;
-  border-radius: 0 0 6px 6px; /*take note*/
-}
 
-.d-block{
-  margin: 50px auto 0;
-  min-width: 400px;
+/* Home Section */
+
+#Home {
+  background-color: var(--blue);
   border-radius: 12px;
 }
 
-.carousel-control-prev,
-.carousel-control-next{
-  align-self: flex-end;
+.bg-primary {
+  background-color: var(--blue)!important;
 }
 
-.carousel-control-prev-icon {
-  margin-left: 80%;
+.carousel-container{
+  height: fit-content;
+  width: 100%;
+  background-color: white;
+  padding-top:  76px;
+  border-radius: 6px; /*take note*/
 }
 
-.carousel-control-next-icon {
-  margin-right: 80%;
+.d-block{
+  margin: 50px auto;
+  min-width: 400px;
+  border-radius: 12px;
 }
 
 .carousel-indicators [data-bs-target] {
   height: 30px;
   background-color: var(--gold);
-  margin: 12px;
+  margin-bottom: 5%;
   border-radius: 100%;
 }
 
 .carousel-indicators .active {
   opacity: 100%;
-  background-color: var(--darkergold);
+  background-color: var(--supergold);
 }
 
 img{
   max-width: 90%;
   max-height: 90%;
   display: block;
+  border-style: groove;
+  border-color: var(--supergold);
+  border-width: 1px;
 }
 
-.introduction {
-  width: 50%;
-  text-align: center;
-  margin: 10px auto 0 auto;
-  color: var(--white);
+.background-cover {
+  padding-bottom: 45px;
+  border-radius: 0 0 6px 6px;
 }
 
 h1 {
-  font-family: 'Lobster', cursive;
-  font-size: xx-large;
-  margin-top: 20px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  margin-top: 50px;
+  color: var(--supergold);
+  text-align: left;
+}
+
+.introduction {
+  margin: 10px auto 40px 0;
   color: var(--white);
+  text-align: left;
+  font-size: 18px;
+}
+
+table {
+
+  margin-right: auto;
+  margin-left: auto;
 }
