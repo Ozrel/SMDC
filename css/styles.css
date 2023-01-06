@@ -132,3 +132,35 @@ table {
   margin-right: auto;
   margin-left: auto;
 }
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1000px) {
+  .carousel-indicators [data-bs-target] {
+    height: 20px;
+    width: 20px;
+    background-color: var(--gold);
+    margin-bottom: 10%;
+    border-radius: 100%;
+  }
+  
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel-indicators [data-bs-target] {
+    height: 10px;
+    width: 10px;
+    background-color: var(--gold);
+    margin-bottom: 15%;
+    border-radius: 100%;
+  }
+  
+}
+
+@media only screen and (max-width: 425px) {
+  html {
+    min-width: 425px !important;
+  }
+  
+}
