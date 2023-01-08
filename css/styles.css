@@ -1,6 +1,6 @@
 :root {
   --blue: #0000FF;
-  --darkerblue: #0000E3;
+  --darkerblue: #093894;
   --white: #ffffff;
   --gold: #E3BA00;
   --supergold: #f3c808;
@@ -15,13 +15,46 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@500&display=swap');
 
-html {
+body {
   height: max-content;
   width: auto;
-  background-color: black;
+  background-color: var(--darkerblue);
 }
 
-body {
+h1 {
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  color: var(--supergold);
+}
+
+h2{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  margin-top: 30%;
+  color: var(--supergold);
+  text-align: left;
+  padding-left: 12px;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+}
+
+.supergold {
+  color: var(--darkerblue);
+  font-size: 1.2rem;
+}
+
+hr {
+  width: 45%;
+  height: 15px;
+  color: var(--gold);
+  margin: 8px auto;
+}
+
+.main-container {
   height: 100%;
   background-color: white;
   border-style:double;
@@ -30,22 +63,9 @@ body {
   border-radius: 12px;
 }
 
-img {
-  margin-top: 8px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 8px;
-  border-radius: 12px;
-  border-style: groove;
-  border-color: var(--supergold);
-  border-width: 1px;
-  max-width: 100%;
-
-}
-
 .smdc-logo {
   border-radius: 12px;
-  height: 40px;
+  height: 46px;
   width: fit-content;
   margin-right: 30px;
   background-color: white;
@@ -65,7 +85,7 @@ img {
 a.nav-link {
   font-family: 'Oswald', sans-serif !important;
   font-weight: 500 !important;
-  font-size: 14px !important;
+  font-size: 15px !important;
   color: white !important;
   margin: 0 14px;
 }
@@ -80,7 +100,7 @@ a.nav-link:active {
 
 a.nav-link.active {
   font-family: 'Oswald', sans-serif !important;
-  font-size: 14px !important;
+  font-size: 15px !important;
   font-weight: 600 !important;
   color: white!important;
 }
@@ -90,11 +110,11 @@ a.nav-link.active:active {
 }
 
 .btn-success {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .form-control {
-  font-size: 14px;
+  font-size: 15px;
   color: blue!important;
 }
 
@@ -103,9 +123,25 @@ a.nav-link.active:active {
   font-size: 18px;
   font-weight: 400;
   margin-right: 8px;
-  margin-top: auto;
-  margin-bottom: auto;
   text-align: left;
+}
+
+/*Navigation Section*/
+
+.contact-person-size {
+  height: 30px;
+  width: 100%;
+}
+
+.contact-fixed {
+  position: fixed;
+  top: 0;
+  background-color: var(--darkerblue);
+  z-index: 2;
+}
+
+.inquiry-info {
+  color: gold;
 }
 
 /* Home Section */
@@ -115,6 +151,53 @@ a.nav-link.active:active {
   border-radius: 12px;
 }
 
+.background-cover {
+  margin: 6px 6px 0 6px;
+  border-radius: 6px;
+  border-style: groove;
+  border-color: var(--supergold);
+  border-width: 1px;
+}
+
+.introduction {
+  margin: 10px auto 40px 0;
+  color: var(--white);
+  text-align: left;
+  font-size: 18px;
+  padding-left: 12px;
+}
+
+table {
+  margin-top: 8px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.carousel {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item img {
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  border-style: groove;
+  border-color: var(--supergold);
+  border-width: 1px;
+  max-width: fit-content;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='orange' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='orange' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
 
 .carousel-indicators [data-bs-target] {
   height: 15px;
@@ -127,27 +210,44 @@ a.nav-link.active:active {
 
 .carousel-indicators .active {
   opacity: 100%;
-  background-color: var(--supergold);
+  background-color: orange;
+}
+
+/* PROPERTIES SECTION */
+
+#Properties {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 3%;
+  background-color: var(--darkerblue);
+  padding-bottom: 12px;
+}
+
+.btn-light {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.row {
+  margin-top: 2%;
+}
+
+.border-radius {
+  border-radius: 12px;
+  margin-top: 2%;
+  font-size: large;
+  font-weight: 600;
+  border-width: 2px;
+  border-color: #967B00;
 }
 
 
-h1 {
-  font-family: 'Abril Fatface', cursive;
-  font-size: 50px;
-  margin-top: 50px;
-  color: var(--supergold);
-  text-align: left;
-}
 
-.introduction {
-  margin: 10px auto 40px 0;
-  color: var(--white);
-  text-align: left;
-  font-size: 18px;
-}
+/* MEDIA QUERIES */
 
-table {
-  margin-top: 8px;
-  margin-right: auto;
-  margin-left: auto;
+@media only screen and (max-width: 502px) { /*may need to create another for smaller size*/
+  .inquiry-info {
+    font-size: small;
+    padding-top: 5px;
+  }
 }
