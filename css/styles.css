@@ -30,11 +30,12 @@ h1 {
 
 h2{
   font-family: 'Abril Fatface', cursive;
-  font-size: 50px;
+  font-size: 2.5rem;
   margin-top: 30%;
   color: var(--supergold);
   text-align: left;
-  padding-left: 12px;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 p {
@@ -42,16 +43,22 @@ p {
   color: white;
 }
 
-.supergold {
-  color: var(--darkerblue);
-  font-size: 1.2rem;
-}
-
 hr {
   width: 45%;
   height: 15px;
   color: var(--gold);
   margin: 8px auto;
+}
+
+table {
+  margin-top: 8px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.supergold {
+  color: var(--darkerblue);
+  font-size: 1.2rem;
 }
 
 .main-container {
@@ -147,11 +154,8 @@ a.nav-link.active:active {
 /* Home Section */
 
 #Home {
-  background-color: var(--white);
+  background-color: rgba(255, 255, 255, 0.719);
   border-radius: 12px;
-}
-
-.background-cover {
   margin: 6px 6px 0 6px;
   border-radius: 6px;
   border-style: groove;
@@ -159,18 +163,29 @@ a.nav-link.active:active {
   border-width: 1px;
 }
 
+.background-cover {
+
+  border-radius: 6px;
+  border-style: groove;
+  border-color: var(--supergold);
+  border-width: 1px;
+}
+
 .introduction {
-  margin: 10px auto 40px 0;
+  margin: 1% auto 20% 1%;
   color: var(--white);
   text-align: left;
   font-size: 18px;
-  padding-left: 12px;
 }
 
-table {
-  margin-top: 8px;
-  margin-right: auto;
-  margin-left: auto;
+#Carousel {
+  background-color: var(--darkerblue);
+  border-radius: 12px;
+  margin: 6px 6px 0 6px;
+  border-radius: 6px;
+  border-style: groove;
+  border-color: var(--supergold);
+  border-width: 1px;
 }
 
 .carousel {
@@ -202,8 +217,8 @@ table {
 .carousel-indicators [data-bs-target] {
   height: 15px;
   width: 15px;
-  margin-left: 3px;
-  margin-right: 3px;
+  margin-left: 1%;
+  margin-right: 0;
   background-color: var(--gold);
   border-radius: 100%;
 }
@@ -221,6 +236,11 @@ table {
   padding-top: 3%;
   background-color: var(--darkerblue);
   padding-bottom: 12px;
+  margin: 6px 6px 0 6px;
+  border-radius: 6px;
+  border-style: groove;
+  border-color: var(--supergold);
+  border-width: 1px;
 }
 
 .btn-light {
@@ -242,6 +262,34 @@ table {
 }
 
 
+/*CONTACT SECTION*/
+#Contact {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 3%;
+  background-color: var(--darkerblue);
+  padding-bottom: 12px;
+  margin: 6px 6px 0 6px;
+  border-radius: 6px;
+  border-style: groove;
+  border-color: var(--supergold);
+  border-width: 1px;
+}
+.all-rights {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.7rem;
+}
+
+/* BACK to TOP BUTTON */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  border-radius: 100%;
+}
 
 /* MEDIA QUERIES */
 
