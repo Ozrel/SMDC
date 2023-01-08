@@ -215,8 +215,8 @@ a.nav-link.active:active {
 }
 
 .carousel-indicators [data-bs-target] {
-  height: 15px;
-  width: 15px;
+  height: 12px;
+  width: 12px;
   margin-left: 1%;
   margin-right: 0;
   background-color: var(--gold);
