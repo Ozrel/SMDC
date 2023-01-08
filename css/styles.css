@@ -1,5 +1,5 @@
 :root {
-  --blue: #0000FF;
+  --blue: #0d6efd;
   --darkerblue: #093894;
   --white: #ffffff;
   --gold: #E3BA00;
@@ -18,7 +18,7 @@
 body {
   height: max-content;
   width: auto;
-  background-color: var(--darkerblue);
+  background-color: var(--white);
 }
 
 h1 {
@@ -83,7 +83,7 @@ table {
   border-radius: 6px;
   border-style: groove;
   border-width: 2px;
-  border-color: var(--blue);
+  border-color: var(--supergold);
   width: calc(100% - 10px);
   z-index: 3;
   box-sizing: border-box;
@@ -179,7 +179,7 @@ a.nav-link.active:active {
 }
 
 #Carousel {
-  background-color: var(--darkerblue);
+  background-color: var(--blue);
   border-radius: 12px;
   margin: 6px 6px 0 6px;
   border-radius: 6px;
@@ -234,7 +234,7 @@ a.nav-link.active:active {
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 3%;
-  background-color: var(--darkerblue);
+  background-color: var(--blue);
   padding-bottom: 12px;
   margin: 6px 6px 0 6px;
   border-radius: 6px;
@@ -267,7 +267,7 @@ a.nav-link.active:active {
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 3%;
-  background-color: var(--darkerblue);
+  background-color: var(--blue);
   padding-bottom: 12px;
   margin: 6px 6px 0 6px;
   border-radius: 6px;
