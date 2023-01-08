@@ -13,102 +13,172 @@
   <link rel="icon" href="favicon.ico">
 </head>
 <body>
-  <section id ="Navigation">
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <div class="contact-fixed contact-person-size"><p class="inquiry-info">For inquiries please call +63-928-420-3101 (Viber/Whatsapp)</p></div>
+  <div class="contact-container contact-person-size"></div>
+  <div class="main-container">
+    <section id ="Navigation">
+      <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="smdc-logo" src="images/smdc-logo-website.png"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Properties">PROPERTIES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  FAQs
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Investing</a></li>
+                  <li><a class="dropdown-item" href="#">Buyer's Guide</a></li>
+                  <li><a class="dropdown-item" href="#">News and Events</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-3" type="search" placeholder="Search here!" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+    </section>
+    <section id="Home">
+      <div class="background-cover" style="background-image: url('images/background-cover.jpg'); background-size: 100%; background-repeat: no-repeat; background-size: cover;"> <!-- /*background-image!*/ -->
+        <table>
+          <tr>
+            <th><h2>Experience luxurious urban living with SMDC</h2></th> <!-- /*may need to edit in the future!*/ -->
+            <th></th>
+          </tr>
+          <tr>
+            <td>
+              <p class="introduction">As the fastest growing real estate developer in the Philippines,
+                <br />we make sure we build our properties within commercial retail environments
+                <br />And provide you with quality amenities and top-notch services.
+              </p>
+            </td> <!-- /*may need to edit in the future!!*/ -->
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="images/148768556_orig.png" alt="Picture" style="width:auto;max-width:100%"></td> <!-- /*may need to edit in the future!!*/ -->
+            <td></td>
+          </tr>
+        </table>
+      </div>
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="smdc-logo" src="images/smdc-logo-website.png"> </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">PROPERTIES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                FAQ
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Investing</a></li>
-                <li><a class="dropdown-item" href="#">Buyer's Guide</a></li>
-                <li><a class="dropdown-item" href="#">News and Events</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-3" type="search" placeholder="Search here!" aria-label="Search">
-            <button class="btn btn-success" type="submit">Search</button>
-          </form>
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/slides-home-buyer.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/slides-vail-residences.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/slides-calm-res.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/slides-shore3-residences.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/slides-ice-tower.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/slides-gold-residences.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
-  </section>
-  <section id="Home">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </section>
+
+    <section id="Properties">  <!-- Properties-->
+      <h1 class="center">Featured Properties</h1>
+      <hr>
+      <p>Look at the list of properties we are offering right now.</p>
+      <div class="row row-cols-1 row-cols-md-4 g-4 ">
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img src="images/coast-hero-img1.jpg" class="card-img-top" alt="...">
+            <a href="#" class="btn btn-light">19K/Month</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img src="images/sands-hero-img2.jpg" class="card-img-top" alt="...">
+            <a href="#" class="btn btn-light">19K/Month</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img src="images/fame-hero-img3.jpg" class="card-img-top" alt="...">
+            <a href="#" class="btn btn-light">15K/Month</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img src="images/twin-hero-img4.jpg" class="card-img-top" alt="...">
+            <a href="#" class="btn btn-light">9K/Month</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img src="images/field-hero-img5.jpg" class="card-img-top" alt="...">
+            <a href="#" class="btn btn-light">14K/Month</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img src="images/calm-hero-img6.jpg" class="card-img-top" alt="...">
+            <a href="#" class="btn btn-light">10K/Month</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img src="images/lane-hero-img7.jpg" class="card-img-top" alt="...">
+            <a href="#" class="btn btn-light">8K/Month</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <img src="images/gem-hero-img8.jpg" class="card-img-top" alt="...">
+            <a href="#" class="btn btn-light">14K/Month</a>
+          </div>
+        </div>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/slides-gold-residences.jpg" class="d-block w-60" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="images/slides-home-buyer.jpg" class="d-block w-60" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="images/slides-vail-residences.jpg" class="d-block w-60" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="images/slides-shore3-residences.jpg" class="d-block w-60" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="images/slides-calm-res.jpg" class="d-block w-60" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="images/slides-ice-tower.jpg" class="d-block w-60" alt="...">
-        </div>
-      </div>
-    </div>
-    <div class="background-cover" style="background-image: url('images/background-cover.jpg'); background-size: 100%; background-repeat: no-repeat; background-size: cover;"> <!-- /*background-image!*/ -->
-      <table>
-        <tr>
-          <th><h1>Experience luxurious urban living with SMDC</h1></th> <!-- /*may need to edit in the future!*/ -->
-          <th></th>
-        </tr>
-        <tr>
-          <td>
-            <p class="introduction">As the fastest growing real estate developer in the Philippines,
-              <br />we make sure we build our properties within commercial retail environments
-              <br />And provide you with quality amenities and top-notch services.
-            </p>
-          </td> <!-- /*may need to edit in the future!!*/ -->
-          <td></td>
-        </tr>
-        <tr>
-          <td><img src="images/148768556_orig.png" alt="Picture" style="width:auto;max-width:100%"></td> <!-- /*may need to edit in the future!!*/ -->
-          <td></td>
-        </tr>
-      </table>
-    </div>
-  </section>
-  <section id="Properties">
-  </section>
-  <section id="FAQ">
-  </section>
-  <section id="Contact">
-  </section>
+      <button type="button" class="btn btn-light border-radius"><span class="supergold">Browse Properties ​→</span></button>
+    </section>
+
+    <section id="FAQ">    <!-- Properties--> 
+    </section>
+
+    <section id="Contact">    <!-- Properties-->
+    </section>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
-
