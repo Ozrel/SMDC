@@ -30,12 +30,13 @@ h1 {
 
 h2{
   font-family: 'Abril Fatface', cursive;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin-top: 30%;
-  color: var(--supergold);
+  color: var(--white);
   text-align: left;
   padding-left: 1%;
   padding-right: 1%;
+  width: 80%;
 }
 
 p {
@@ -50,8 +51,12 @@ hr {
   margin: 8px auto;
 }
 
+.background-cover {
+  border-radius: 6px 6px 0 0;
+}
+
 table {
-  margin-top: 8px;
+  margin-top: 0;
   margin-right: auto;
   margin-left: auto;
 }
@@ -158,13 +163,14 @@ a.nav-link.active:active {
   border-width: 1px;
 }
 
+/*
 .background-cover {
-
-  border-radius: 6px;
+  border-radius: 6px 6px 0 0;
   border-style: groove;
   border-color: var(--supergold);
-  border-width: 1px;
+  border-width: 1px 1px 0 1px;
 }
+*/
 
 .introduction {
   margin: 1% auto 20% 1%;
@@ -195,8 +201,6 @@ a.nav-link.active:active {
   margin-right: auto;
   margin-bottom: 8px;
   border-radius: 12px;
-  border-style: groove;
-  border-color: var(--supergold);
   border-width: 1px;
   max-width: fit-content;
 }
