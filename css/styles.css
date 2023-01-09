@@ -25,7 +25,7 @@ h1 {
   font-size: 3em;
   text-align: center;
   font-family: 'Abril Fatface', cursive;
-  color: var(--supergold);
+  color: var(--darkerblue);
 }
 
 h2{
@@ -40,13 +40,13 @@ h2{
 
 p {
   font-size: 18px;
-  color: white;
+  color: black;
 }
 
 hr {
   width: 45%;
   height: 15px;
-  color: var(--gold);
+  color: black;
   margin: 8px auto;
 }
 
@@ -54,11 +54,6 @@ table {
   margin-top: 8px;
   margin-right: auto;
   margin-left: auto;
-}
-
-.supergold {
-  color: var(--darkerblue);
-  font-size: 1.2rem;
 }
 
 .main-container {
@@ -179,7 +174,7 @@ a.nav-link.active:active {
 }
 
 #Carousel {
-  background-color: var(--blue);
+  background-color: var(--white);
   border-radius: 12px;
   margin: 6px 6px 0 6px;
   border-radius: 6px;
@@ -208,10 +203,14 @@ a.nav-link.active:active {
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='orange' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  height: 20%;
+  width: 20%;
 }
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='orange' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  height: 20%;
+  width: 20%;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -219,8 +218,6 @@ a.nav-link.active:active {
   width: 12px;
   margin-left: 1%;
   margin-right: 0;
-  background-color: var(--gold);
-  border-radius: 100%;
 }
 
 .carousel-indicators .active {
@@ -231,10 +228,10 @@ a.nav-link.active:active {
 /* PROPERTIES SECTION */
 
 #Properties {
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 3%;
-  background-color: var(--blue);
+  background-color: var(--white);
   padding-bottom: 12px;
   margin: 6px 6px 0 6px;
   border-radius: 6px;
@@ -243,33 +240,65 @@ a.nav-link.active:active {
   border-width: 1px;
 }
 
-.btn-light {
+
+.card {
+  overflow: hidden;
+}
+.card-img-top{
+  transition: transform .5s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.5);
+}
+
+
+
+.btn-primary {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  background-color: #093894;
+  border-color: #093894;
+  z-index: 5;;
 }
+
+.btn-primary:hover {
+  background-color: var(--gold);
+  border-color: var(--supergold);
+  color: black;
+  font-weight: 700;
+}
+
 
 .row {
   margin-top: 2%;
 }
 
-.border-radius {
+.border-radius { /* Browse Properties Button */
   border-radius: 12px;
-  margin-top: 2%;
-  font-size: large;
-  font-weight: 600;
+  margin-top: 26px;
+  font-size: 1.2rem;
+  font-weight: 700;
   border-width: 2px;
-  border-color: #967B00;
+  border-color: var(--gold);
+  word-break: break-all;
+  color: black;
+  transition-property: background-color;
+  transition-duration: 2s;
 }
 
+.border-radius:hover {
+  background-color: var(--darkerblue);
+  color: var(--white);
+  transition: background-color 2s ;
+  
+}
 
 /*CONTACT SECTION*/
 #Contact {
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 3%;
-  background-color: var(--blue);
-  padding-bottom: 12px;
-  margin: 6px 6px 0 6px;
+  background-color: var(--white);
+  padding: 1%;
+  margin: 6px;
   border-radius: 6px;
   border-style: groove;
   border-color: var(--supergold);
@@ -279,6 +308,7 @@ a.nav-link.active:active {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  color: black;
   font-size: 0.7rem;
 }
 
@@ -299,3 +329,4 @@ a.nav-link.active:active {
     padding-top: 5px;
   }
 }
+
