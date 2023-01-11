@@ -151,6 +151,10 @@ a.nav-link.active:active {
   color: white;
 }
 
+.bg-primary {
+  background-color: var(--darkerblue) !important;
+}
+
 /* Home Section */
 
 #Home {
