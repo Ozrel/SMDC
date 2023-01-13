@@ -377,6 +377,11 @@ a.disabled {
   border-bottom-left-radius: 0 !important;
 }
 
+h5.card-title {
+  font-family: 'Abril Fatface', cursive !important;
+  color: var(--darkerblue) !important;
+}
+
 .margin-center-align {
   margin-left: auto !important;
   margin-right: auto !important;
