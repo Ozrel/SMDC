@@ -90,7 +90,7 @@ table {
   top: 0;
   left: 0;
   width: 100%;
-  background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+  background-color: white;
   color: var(--darkerblue);
   z-index: 11;
   text-align: center;
@@ -113,6 +113,7 @@ table {
 i {
   font-size: 20px;
   margin-right: 4px;
+  border-radius: 100%;
 }
 
 i:hover {
@@ -304,7 +305,7 @@ a.disabled {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 3%;
-  background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+  background-color: white;;
   padding-bottom: 12px;
   margin: 6px 6px 0 6px;
   border-radius: 6px;
