@@ -69,7 +69,7 @@ hr {
 }
 
 .background-cover {
-  border-radius: 6px 6px 0 0;
+  border-radius: 0;
 }
 
 table {
@@ -138,9 +138,9 @@ i:hover {
 }
 
 .navbar {
-  border-radius: 6px;
+  border-radius: 0;
   border-style: groove;
-  border-width: 1px;
+  border-width: 0 0 1px 0;
   border-color: var(--blue);
   z-index: 12;
   box-sizing: border-box;
@@ -223,9 +223,8 @@ a.disabled {
 
 #Home {
   background-color: rgba(255, 255, 255, 0.719);
-  border-radius: 12px;
-  margin: 6px 6px 0 6px;
   border-radius: 6px;
+  margin: 6px 6px 0 6px;
   border-style: groove;
   border-color: var(--blue);
   border-width: 1px;
