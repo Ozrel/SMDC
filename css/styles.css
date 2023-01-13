@@ -85,7 +85,7 @@ table {
 /*Navigation Section*/
 
 .fixed-navbar {
-  padding-bottom: 4px;
+  padding-bottom: 2px;
   position: fixed;
   top: 0;
   left: 0;
@@ -414,6 +414,10 @@ a.disabled {
 }
 .padding-contact {
   padding: 24px;
+}
+
+.padding-quick-links {
+  padding: 24px 0 24px 48px;
 }
 
 /* BACK to TOP BUTTON */
