@@ -85,6 +85,7 @@ table {
 /*Navigation Section*/
 
 .fixed-navbar {
+  padding: 2px;
   position: fixed;
   top: 0;
   left: 0;
@@ -207,6 +208,12 @@ a.disabled {
 .bg-primary {
   background-color: var(--darkerblue) !important;
 }
+
+.navbar-toggler {
+  border-color: white;
+  border-width: 2px;
+}
+
 
 /* Home Section */
 
