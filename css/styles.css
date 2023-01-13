@@ -92,7 +92,7 @@ table {
   width: 100%;
   background-color: white;
   color: var(--darkerblue);
-  z-index: 11;
+  z-index: 10;
   text-align: center;
 }
 
@@ -140,6 +140,7 @@ i:hover {
 .navbar {
   z-index: 10;
   box-sizing: border-box;
+  margin-top: 2px;
 }
 
 a.nav-link {
@@ -183,7 +184,7 @@ a.nav-link.active:active {
 
 
 .contact-person-size {
-  height: 96px;
+  height: 98px;
   width: 100%;
 }
 
@@ -442,7 +443,7 @@ a.disabled {
 
 @media only screen and (max-width: 637px) { 
   .contact-person-size {
-    height: 96px !important;
+    height: 98px !important;
   }
 }
 
