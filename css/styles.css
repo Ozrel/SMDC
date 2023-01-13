@@ -92,7 +92,7 @@ table {
   width: 100%;
   background-color: white;
   color: var(--darkerblue);
-  z-index: 10;
+  z-index: 11;
   text-align: center;
 }
 
@@ -138,9 +138,8 @@ i:hover {
 }
 
 .navbar {
-  z-index: 10;
+  z-index: 12;
   box-sizing: border-box;
-  margin-top: 2px;
 }
 
 a.nav-link {
@@ -184,13 +183,13 @@ a.nav-link.active:active {
 
 
 .contact-person-size {
-  height: 98px;
+  height: 96px;
   width: 100%;
 }
 
 .position-fixed {
   width: 100%;
-  top: 28px;
+  top: 26px;
 }
 
 a.disabled {
@@ -416,10 +415,6 @@ a.disabled {
   padding: 24px;
 }
 
-.padding-quick-links {
-  padding: 24px 0 24px 48px;
-}
-
 /* BACK to TOP BUTTON */
 #btn-back-to-top {
   position: fixed;
@@ -447,7 +442,7 @@ a.disabled {
 
 @media only screen and (max-width: 637px) { 
   .contact-person-size {
-    height: 98px !important;
+    height: 96px !important;
   }
 }
 
