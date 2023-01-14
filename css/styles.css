@@ -380,6 +380,7 @@ a.disabled {
 h5.card-title {
   font-family: 'Abril Fatface', cursive !important;
   color: var(--darkerblue) !important;
+  font-size: 1.85rem;
 }
 
 .margin-center-align {
@@ -402,6 +403,14 @@ h5.card-title {
   font-size: 1.15rem;
 }
 
+p.card-text {
+  text-align: left !important;
+  font-size: 0.95rem;
+}
+
+span.dont-break {
+  word-break: keep-all !important;
+}
 .no-decoration {
   text-decoration: none;
 }
