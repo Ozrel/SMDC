@@ -98,25 +98,25 @@ table {
 }
 
 .inquiry {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   font-weight: 700;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
 }
 
 i {
-  font-size: 20px;
+  font-size: 18px;
   margin-right: 4px;
   border-radius: 100%;
   color: var(--white);
 }
 
 i:hover {
-  font-size: large;
+  font-size: 20px;
 }
 
 a.icon-background {
-  background-color: rgba(0,0,128,0);
+  background-color: rgba(0,7,128,0);
 }
 
 
